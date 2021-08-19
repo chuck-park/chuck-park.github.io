@@ -5,7 +5,22 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Chuck Park`,
+    // Default title of the page
+    siteTitleAlt: `Chuck Park Blog`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Chuck Park`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://chungminpark.github.io`,
+    // Used for SEO
+    siteDescription: `Chuck Park' s blog`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `./static/banner.jpg`,
+    // Twitter Handle
+    author: `@chuck`,
   },
   flags: {
     FAST_DEV: true,
@@ -26,14 +41,14 @@ module.exports = {
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
-          },
+          // {
+          //   name: `Twitter`,
+          //   url: `https://twitter.com/lekoarts_de`,
+          // },
+          // {
+          //   name: `Homepage`,
+          //   url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+          // },
         ],
       },
     },
@@ -62,9 +77,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `chuck park`,
+        short_name: `chuck park`,
+        description: `This is a github page of Chungmin Park(Chuck)`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,

@@ -101,14 +101,14 @@ analytics:
 # Site Author
 author:
   name             : "Chuck Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://avatars.githubusercontent.com/u/15935262?v=4"
   bio              : "I am Chuck Park."
   location         : "Seoul, South Korea"
   email            : "chuck.m.park@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chuck.m.park@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:chuck.m.park@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

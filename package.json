@@ -1,8 +1,8 @@
 {
-  "name": "minimal-mistakes",
+  "name": "chuck-park",
   "private": true,
-  "version": "4.24.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "version": "1.0.0",
+  "description": "chuck-park github page",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmistakes/minimal-mistakes.git"
@@ -12,12 +12,9 @@
     "theme",
     "minimal"
   ],
-  "author": "Michael Rose",
+  "author": "Chuck Park",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://chuck-park.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },

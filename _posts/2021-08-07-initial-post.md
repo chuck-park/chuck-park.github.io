@@ -1,9 +1,10 @@
 ---
 title: Initial Post
-layout: archive
-# last_modified_at: 2018-01-03T09:45:06-05:00
+categories: life
+# layout: archive
 tags:
   - life
+# last_modified_at: 2018-01-03T09:45:06-09:00
 # toc: true # table of contents
 ---
 

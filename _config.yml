@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko"
 title                    : "Chuck Park"
 title_separator          : "|"
-subtitle                 : # "gitpage"
+subtitle                 : "Blog"
 name                     : "Chuck Park"
 description              : "chuck park's blog"
 url                      : "https://chuck-park.github.io"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Chuck Park"
   avatar           : "https://avatars.githubusercontent.com/u/15935262?v=4"
-  bio              : "I am Chuck Park."
+  bio              : "비즈니스 문제를 해결하는 개발자, 박청민입니다."
   location         : "Seoul, South Korea"
   email            : "chuck.m.park@gmail.com"
   links:
@@ -274,6 +274,9 @@ compress_html:
 
 # Collections
 collections:
+  life:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/

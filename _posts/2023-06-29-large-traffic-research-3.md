@@ -5,10 +5,9 @@ tags:
   - CS
   - Infra
 ---
+> 익숙함에 속아 중요함을 잊지말자 - 운영체제
 
 I/O 부하 분산 처리 방법을 얘기하기 전에 알고 있어야할 것들이 많다. 이번에는 OS 캐시에 대해 알아보자.
-
-이전 이야기가 궁금하신 분들은 [이전 글](https://chuck-park.github.io/cs/large-traffic-research-2/)을 참고해주시길 바란다.
 
 OS 캐시는 페이지라는 단위로 관리되기 때문에 페이지 캐시(Page Cache)라고도 불린다. OS 캐시 방식과 페이지 크기는 OS 마다 다른데, 이 글에서는 Linux([x86](https://phoenixnap.com/kb/x64-vs-x86))를 기준으로 알아보자.
 

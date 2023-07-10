@@ -104,14 +104,14 @@ author:
   avatar           : "https://avatars.githubusercontent.com/u/15935262?v=4"
   bio              : "비즈니스 문제를 해결하는 개발자, 박청민입니다."
   location         : "Seoul, South Korea"
-  email            : "chuck.m.park@gmail.com"
+  # email            : "chuck.m.park@gmail.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:chuck.m.park@gmail.com"
-    - label: "Website"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:chuck.m.park@gmail.com"
+    - label: "Notion"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://chuckpark.notion.site/422fca48285e4626a48d6f76090089c8?pvs=4"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -123,7 +123,7 @@ author:
       url: "https://github.com/chuck-park"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/chungmin.park/"
 
 # Site Footer
 footer:

@@ -1,6 +1,6 @@
 ---
 title: 대규모 서비스에 대한 연구 3 - I/O 부하 분산과 OS 캐시
-categories: Backend
+categories: backend
 tags:
   - CS
   - Infra

@@ -2,8 +2,8 @@
 title: 대규모 서비스에 대한 연구 1 - 부하 분산(Load balancing)
 categories: backend
 tags:
-  - CS
-  - Infra
+  - cs
+  - infra
 ---
 
 > 백엔드 개발자는 대규모의 실시간 트래픽 경험, 고가용성의 확장 가능한 설계를 할 수 있는 것이 중요하다는 이야기를 많이 듣는다.

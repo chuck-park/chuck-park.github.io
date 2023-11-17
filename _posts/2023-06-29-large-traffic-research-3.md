@@ -2,8 +2,8 @@
 title: 대규모 서비스에 대한 연구 3 - I/O 부하 분산과 OS 캐시
 categories: backend
 tags:
-  - CS
-  - Infra
+  - cs
+  - infra
 ---
 > 익숙함에 속아 중요함을 잊지말자 - 운영체제
 

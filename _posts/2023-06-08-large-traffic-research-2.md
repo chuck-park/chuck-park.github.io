@@ -2,8 +2,8 @@
 title: 대규모 서비스에 대한 연구 2 - I/O 부하 분산과 Memory, Disk
 categories: backend
 tags:
-  - CS
-  - Infra
+  - cs
+  - infra
 ---
 
 > Memory와 Disk는 생각보다 많이 다르다.

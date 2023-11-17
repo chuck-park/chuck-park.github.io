@@ -1,8 +1,8 @@
 ---
 title: PMF(Product Market Fit)의 정의와 PMF를 찾는 방법
-categories: Product
+categories: product
 tags:
-  - Product
+  - product
 ---
 
 # 정의

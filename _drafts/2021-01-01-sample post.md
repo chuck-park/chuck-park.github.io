@@ -1,6 +1,6 @@
 ---
 title: Sample Post
-layout: archive
+categories: life
 tags:
   - life
 ---

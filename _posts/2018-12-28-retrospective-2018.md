@@ -2,7 +2,7 @@
 title: 27살 컴공 대학생의 2018년 회고
 categories: life
 tags:
-  - life
+  - 회고
 last_modified_at: 2023-07-10T20:13:00-09:00
 ---
 

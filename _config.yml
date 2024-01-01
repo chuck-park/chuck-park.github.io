@@ -112,18 +112,18 @@ author:
     - label: "Notion"
       icon: "fas fa-fw fa-link"
       url: "https://chuckpark.notion.site/422fca48285e4626a48d6f76090089c8?pvs=4"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chuck-park"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/chuck-park"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/chungmin.park/"
+      # url: "https://www.instagram.com/chungmin.park/"
 
 # Site Footer
 footer:

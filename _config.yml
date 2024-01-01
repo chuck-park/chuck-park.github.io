@@ -101,8 +101,8 @@ analytics:
 # Site Author
 author:
   name             : "Chuck Park"
-  avatar           : "https://avatars.githubusercontent.com/u/15935262?v=4"
-  bio              : "비즈니스 문제를 해결하는 개발자, 박청민입니다."
+  avatar           : "/assets/images/character.png"
+  bio              : "비즈니스 문제를 해결하는 개발자"
   location         : "Seoul, South Korea"
   # email            : "chuck.m.park@gmail.com"
   links:

@@ -1,5 +1,5 @@
 ---
-title: prompt와 친해지기
+title: 2023 회고
 categories: life
 tags:
   - 회고

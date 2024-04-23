@@ -11,4 +11,4 @@ tags:
 
 보고 좋았던 컨텐츠들을 추천해주시면 업데이트하겠습니다.
 
-![sample_image](image.png)
+![sample_image](/assets/images/2024-04-24-tech-contents/sample-image.png)

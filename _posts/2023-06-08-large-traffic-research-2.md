@@ -1,6 +1,6 @@
 ---
 title: 대규모 서비스에 대한 연구 2 - I/O 부하 분산과 Memory, Disk
-categories: backend
+categories: dev
 tags:
   - cs
   - infra

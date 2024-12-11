@@ -111,7 +111,7 @@ author:
       url: "mailto:chuck.m.park@gmail.com"
     - label: "Notion"
       icon: "fas fa-fw fa-link"
-      url: "https://chuckpark.notion.site/422fca48285e4626a48d6f76090089c8?pvs=4"
+      # url: "https://chuckpark.notion.site/422fca48285e4626a48d6f76090089c8?pvs=4"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chuck-park"
@@ -295,7 +295,7 @@ defaults:
       share: true
       related: true
       show_date: true
-  
+
   # _portfolio
   - scope:
       path: ""

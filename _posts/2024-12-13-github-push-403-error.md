@@ -61,6 +61,6 @@ repo scope에 꼭 체크해야 repo 관련 액션을 할 수 있으니 꼭 체�
 git remote set-url origin https://{TOKEN}@github.com/chuck-park/chuck-park.github.io.git
 ``` 
 
-### References
-- [Github | The requested URL returned error: 403](https://iambeginnerdeveloper.tistory.com/256)
+# References
+- [The requested URL returned error: 403 - Github](https://iambeginnerdeveloper.tistory.com/256)
 - [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)

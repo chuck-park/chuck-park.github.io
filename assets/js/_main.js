@@ -6,6 +6,34 @@ $(document).ready(function() {
   // FitVids init
   $("#main").fitVids();
 
+  // Image caption functionality
+  $('img[alt*="{caption="]').each(function() {
+    const $img = $(this);
+    const alt = $img.attr('alt');
+    const captionMatch = alt.match(/\{caption=([^\{\}]+)\}/);
+    
+    if (captionMatch) {
+      const caption = captionMatch[1];
+      const cleanAlt = alt.replace(captionMatch[0], '').trim();
+      
+      // Create figure element
+      const $figure = $('<figure>');
+      
+      // Clone the image and update its alt text
+      const $newImg = $img.clone();
+      $newImg.attr('alt', cleanAlt);
+      
+      // Create caption element
+      const $figcaption = $('<figcaption>').text(caption);
+      
+      // Assemble the figure
+      $figure.append($newImg).append($figcaption);
+      
+      // Replace the original image with the figure
+      $img.replaceWith($figure);
+    }
+  });
+
   // Sticky sidebar
   var stickySideBar = function() {
     var show =

@@ -11,15 +11,13 @@ CPU는 물리 계산을 수행하는 핵심 부품인 코어(Core)를 갖고 있
 
 과거에는 하나의 컴퓨터에 프로세서가 한 개만 있었다. 이를 **싱글 프로세서 시스템(Single Processor System)**이라고 부른다. 싱글 프로세서 시스템에서는 프로세서가 한 번에 하나의 작업만 처리할 수 있다.
 
-|![싱글 프로세서 시스템](/assets/images/2025-03-15-multi-processing-and-multi-threading/image.png)|
+|![싱글 프로세서 시스템](/assets/images/2025-03-15-multi-processing-and-multi-threading/image.png)
 |:--:|
 |*싱글 프로세서 시스템*|
 
 프로그램(Program)은 컴퓨터가 실행할 수 있는 명령어(Instruction)들의 집합이다. 주로 하드디스크에 저장된다.
 
-프로그램이 실행된다는 것은 OS에 의해 [프로그램의 일부가 메모리에 적재되고](https://www.notion.so/1aaec5b7b77980559f9bc7129e8d1eea?pvs=21) CPU에 의해 명령어가 수행되는 것을 의미한다.
-
-[예외: 프로그램이 OS에 의해 메모리에 올라가지 않는 경우](https://www.notion.so/OS-1aaec5b7b7798007b8cdfa973ad61a51?pvs=21)
+프로그램이 실행된다는 것은 OS에 의해 프로그램의 일부가 메모리에 적재되고 CPU에 의해 명령어가 수행되는 것을 의미한다.
 
 실행 중인 프로그램을 프로세스(Process)라고 부른다. 이 때 명령어는 사이클(클럭, Clock) 단위로 처리된다.
 
@@ -49,7 +47,7 @@ CPU는 물리 계산을 수행하는 핵심 부품인 코어(Core)를 갖고 있
 
 예를 들어 8코어 CPU에 하이퍼 쓰레딩을 지원한다면 논리적으로는 16개의 코어를 가지고 있다고 표현된다.
 
-|![Hyper Threading](/assets/images/2025-03-15-multi-processing-and-multi-threading/image5.png)|
+|![Hyper Threading ><](/assets/images/2025-03-15-multi-processing-and-multi-threading/image5.png)|
 |:--:|
 |*하이퍼 쓰레딩의 원리*|
 
@@ -61,16 +59,10 @@ CPU는 물리 계산을 수행하는 핵심 부품인 코어(Core)를 갖고 있
 
 # References
 
-https://dmzld.tistory.com/18
-
-https://donghoson.tistory.com/entry/CPU-%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C-%EC%BD%94%EC%96%B4-%EA%B0%99%EC%9D%80-%EC%9A%A9%EC%96%B4%EC%9D%B8%EA%B0%80
-
-https://k9want.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%80%ED%8B%B0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%A9%80%ED%8B%B0%ED%83%9C%EC%8A%A4%ED%82%B9-%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9-%EB%A9%80%ED%8B%B0%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1
-
-https://www.naukri.com/code360/library/difference-between-multiprogramming-and-multitasking
-
-https://donghoson.tistory.com/entry/%ED%95%98%EC%9D%B4%ED%8D%BC-%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%B4%EB%9E%80-1
-
-https://it.donga.com/27894/
-
-https://namu.wiki/w/SMT#s-4
+- [두둠칫 [OS] CPU, Processor, Core, Process, Thread 그리고 관계 정리](https://dmzld.tistory.com/18)
+- [dhson CPU, 프로세서, 코어... 같은 용어인가?](https://donghoson.tistory.com/entry/CPU-%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C-%EC%BD%94%EC%96%B4-%EA%B0%99%EC%9D%80-%EC%9A%A9%EC%96%B4%EC%9D%B8%EA%B0%80)
+- [k9want [운영체제] 멀티프로그래밍, 멀티태스킹, 멀티스레딩, 멀티프로세싱](https://k9want.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%A9%80%ED%8B%B0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%A9%80%ED%8B%B0%ED%83%9C%EC%8A%A4%ED%82%B9-%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%94%A9-%EB%A9%80%ED%8B%B0%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1)
+- [www.naukri.com Code 360 by Coding Ninjas](https://www.naukri.com/code360/library/difference-between-multiprogramming-and-multitasking)
+- [dhson 하이퍼 스레딩이란? - (1)](https://donghoson.tistory.com/entry/%ED%95%98%EC%9D%B4%ED%8D%BC-%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%B4%EB%9E%80-1)
+- [최초의 2코어 CPU 나온 지 13년, 이젠 32코어도?](https://it.donga.com/27894/)
+- [namu.wiki - Simultaneous Multi-Threading](https://namu.wiki/w/SMT#s-4)

@@ -5,7 +5,7 @@
   "description": "chuck-park github page",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/chuck-park/chuck-park.github.io.git"
   },
   "keywords": [
     "jekyll",

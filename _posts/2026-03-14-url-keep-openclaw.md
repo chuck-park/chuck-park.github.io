@@ -57,7 +57,7 @@ tags:
 이 규칙을 OpenClaw로 묶어서 개인 워크플로우로 만들었습니다.
 
 ![OpenClaw로 URL을 Keep에 저장하는 흐름](/assets/images/2026-03-07-url-keep-openclaw/workflow-overview.svg)
-*메신저나 입력창에 URL 하나를 보내면, OpenClaw가 이를 받아 Obsidian의 Keep 노트에 저장하는 흐름을 3단계로 단순화한 다이어그램*
+[메신저나 입력창에 URL 하나를 보내면, OpenClaw가 이를 받아 Obsidian의 Keep 노트에 저장하는 흐름을 3단계로 단순화한 다이어그램]
 
 ## 지금 동작하는 방식
 
@@ -82,7 +82,7 @@ tags:
 기억나는 단서 하나만 있으면 됩니다.
 
 ![URL 입력부터 대화형 조회까지의 흐름](/assets/images/2026-03-07-url-keep-openclaw/url-to-retrieval-flow.svg)
-*`URL 입력 -> OpenClaw 저장 -> 나중에 대화형 조회` 흐름을 한눈에 보여주는 워크플로우 다이어그램*
+[`URL 입력 -> OpenClaw 저장 -> 나중에 대화형 조회` 흐름을 한눈에 보여주는 워크플로우 다이어그램]
 
 ## 실제로 쓰는 규칙
 
@@ -98,7 +98,7 @@ tags:
 "이걸 어디에 저장하지?"가 사라지면 정보 관리의 절반은 이미 해결됩니다.
 
 ![실제로 쓰는 저장 규칙 요약](/assets/images/2026-03-07-url-keep-openclaw/rules-summary-cards.svg)
-*지금 워크플로우를 구성하는 저장 규칙 네 가지를 카드 형태로 정리한 요약 이미지*
+[지금 워크플로우를 구성하는 저장 규칙 네 가지를 카드 형태로 정리한 요약 이미지]
 
 ## 이 방식이 남는 이유
 
@@ -113,7 +113,7 @@ tags:
 분류와 정리는 나중 문제로 미루고, 일단 잃어버리지 않는 데 집중합니다.
 
 ![이전 방식과 지금 방식의 저장 비용 비교](/assets/images/2026-03-07-url-keep-openclaw/before-after-capture-cost.svg)
-*저장하기까지 거쳐야 하는 단계 차이를 before/after로 비교한 이미지*
+[저장하기까지 거쳐야 하는 단계 차이를 before/after로 비교한 이미지]
 
 ### 2. 검색이 "찾기"가 아니라 "묻기"가 된다
 
@@ -131,7 +131,7 @@ tags:
 그래서 체감상 문서 검색보다 훨씬 덜 피곤합니다.
 
 ![문서 검색과 대화형 조회의 차이](/assets/images/2026-03-07-url-keep-openclaw/search-vs-chat-retrieval.svg)
-*정확한 키워드 검색과 대화형 조회의 차이를 대비한 비교 이미지*
+[정확한 키워드 검색과 대화형 조회의 차이를 대비한 비교 이미지]
 
 ### 3. 시스템이 내 습관을 억지로 바꾸지 않는다
 

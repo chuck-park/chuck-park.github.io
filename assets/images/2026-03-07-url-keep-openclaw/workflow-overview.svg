@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">OpenClaw URL 저장 워크플로우</title>
+  <desc id="desc">메신저에 URL을 보내면 OpenClaw가 이를 받아 Obsidian Keep 노트에 저장하는 3단계 흐름</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f1e8; }
+      .card { fill: #fffdf8; stroke: #2e4057; stroke-width: 3; rx: 24; ry: 24; }
+      .title { font: 700 30px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #1f2937; }
+      .subtitle { font: 500 18px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #526071; }
+      .label { font: 700 22px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #1f2937; }
+      .body { font: 500 18px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #374151; }
+      .badge { fill: #dbeafe; }
+      .badgeText { font: 700 16px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #1d4ed8; }
+      .arrow { stroke: #f97316; stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="360"/>
+  <text x="60" y="56" class="title">URL 하나를 보내면 저장이 끝나는 흐름</text>
+  <text x="60" y="88" class="subtitle">메신저 입력부터 OpenClaw 처리, Obsidian Keep 저장까지의 핵심 3단계</text>
+
+  <rect x="60" y="130" width="280" height="170" class="card"/>
+  <rect x="88" y="154" width="74" height="32" rx="16" class="badge"/>
+  <text x="104" y="176" class="badgeText">1단계</text>
+  <text x="88" y="218" class="label">URL 입력</text>
+  <text x="88" y="252" class="body">좋은 글을 발견하면</text>
+  <text x="88" y="280" class="body">설명 없이 링크만 보낸다</text>
+
+  <path d="M350 214 C390 214, 410 214, 450 214" class="arrow"/>
+  <path d="M438 200 L460 214 L438 228" class="arrow"/>
+
+  <rect x="460" y="130" width="280" height="170" class="card"/>
+  <rect x="488" y="154" width="74" height="32" rx="16" class="badge"/>
+  <text x="504" y="176" class="badgeText">2단계</text>
+  <text x="488" y="218" class="label">OpenClaw 처리</text>
+  <text x="488" y="252" class="body">URL 단독 입력을 감지하고</text>
+  <text x="488" y="280" class="body">나중에 읽기 항목으로 정리한다</text>
+
+  <path d="M750 214 C790 214, 810 214, 850 214" class="arrow"/>
+  <path d="M838 200 L860 214 L838 228" class="arrow"/>
+
+  <rect x="860" y="130" width="280" height="170" class="card"/>
+  <rect x="888" y="154" width="74" height="32" rx="16" class="badge"/>
+  <text x="904" y="176" class="badgeText">3단계</text>
+  <text x="888" y="218" class="label">Keep 저장</text>
+  <text x="888" y="252" class="body">Obsidian Keep 노트에 쌓이고</text>
+  <text x="888" y="280" class="body">나중에 다시 조회할 수 있다</text>
+</svg>

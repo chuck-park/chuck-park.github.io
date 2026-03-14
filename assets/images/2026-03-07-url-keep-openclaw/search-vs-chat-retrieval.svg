@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">문서 검색과 대화형 조회의 차이</title>
+  <desc id="desc">정확한 키워드를 넣어야 하는 검색과 자연어로 묻는 대화형 조회를 비교한 이미지</desc>
+  <defs>
+    <style>
+      .bg { fill: #f9fafb; }
+      .panel { fill: #ffffff; stroke: #334155; stroke-width: 3; rx: 24; ry: 24; }
+      .title { font: 700 30px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #111827; }
+      .head { font: 700 24px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #111827; }
+      .body { font: 500 19px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #374151; }
+      .searchbox { fill: #f1f5f9; stroke: #94a3b8; stroke-width: 2; rx: 16; ry: 16; }
+      .bubble { fill: #dbeafe; stroke: #60a5fa; stroke-width: 2; rx: 16; ry: 16; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="460"/>
+  <text x="60" y="60" class="title">문서 검색보다 덜 피곤한 이유</text>
+
+  <rect x="60" y="100" width="500" height="300" class="panel"/>
+  <text x="90" y="145" class="head">문서 검색</text>
+  <rect x="90" y="180" width="360" height="44" class="searchbox"/>
+  <text x="108" y="209" class="body">정확한 키워드를 기억해야 함</text>
+  <text x="90" y="270" class="body">- 제목을 기억해야 찾기 쉽다</text>
+  <text x="90" y="304" class="body">- 저장 당시 표현과 달라지면 놓치기 쉽다</text>
+  <text x="90" y="338" class="body">- "왜 저장했는지" 맥락은 잘 안 보인다</text>
+
+  <rect x="640" y="100" width="500" height="300" class="panel"/>
+  <text x="670" y="145" class="head">대화형 조회</text>
+  <rect x="670" y="180" width="380" height="64" class="bubble"/>
+  <text x="690" y="208" class="body">그때 저장한 팀문화 글 뭐였지?</text>
+  <text x="670" y="290" class="body">- 흐릿한 단서만으로도 질문할 수 있다</text>
+  <text x="670" y="324" class="body">- 주제, 시기, 느낌으로 다시 꺼낼 수 있다</text>
+  <text x="670" y="358" class="body">- 검색보다 기억 방식에 가깝다</text>
+</svg>

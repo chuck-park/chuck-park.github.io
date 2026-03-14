@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">실제로 쓰는 저장 규칙</title>
+  <desc id="desc">URL 저장 규칙 네 가지를 카드 형태로 정리한 이미지</desc>
+  <defs>
+    <style>
+      .bg { fill: #fff7ed; }
+      .card { fill: #ffffff; stroke: #c2410c; stroke-width: 3; rx: 22; ry: 22; }
+      .title { font: 700 30px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #111827; }
+      .head { font: 700 22px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #9a3412; }
+      .body { font: 500 18px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #374151; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="420"/>
+  <text x="60" y="60" class="title">실제로 쓰는 규칙</text>
+
+  <rect x="60" y="100" width="250" height="120" class="card"/>
+  <text x="88" y="144" class="head">URL만 보내면 저장</text>
+  <text x="88" y="178" class="body">설명 없이 링크만 보내도</text>
+  <text x="88" y="206" class="body">나중에 읽기 항목으로 처리</text>
+
+  <rect x="340" y="100" width="250" height="120" class="card"/>
+  <text x="368" y="144" class="head">애매하면 확인</text>
+  <text x="368" y="178" class="body">개발 문맥이나 테스트처럼</text>
+  <text x="368" y="206" class="body">의도가 모호하면 한 번 확인</text>
+
+  <rect x="620" y="100" width="250" height="120" class="card"/>
+  <text x="648" y="144" class="head">Keep 노트로 통일</text>
+  <text x="648" y="178" class="body">저장 위치를 하나로 고정해</text>
+  <text x="648" y="206" class="body">다시 찾을 때 헤매지 않기</text>
+
+  <rect x="900" y="100" width="250" height="120" class="card"/>
+  <text x="928" y="144" class="head">질문으로 다시 찾기</text>
+  <text x="928" y="178" class="body">키워드, 도메인, 날짜 같은</text>
+  <text x="928" y="206" class="body">단서로 대화형 조회</text>
+</svg>

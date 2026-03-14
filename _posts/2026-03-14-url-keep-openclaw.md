@@ -94,7 +94,7 @@ tags:
 ![실제로 쓰는 저장 규칙 요약](/assets/images/2026-03-07-url-keep-openclaw/rules-summary-cards.svg)
 <p style="font-size: 0.92em;">[지금 워크플로우를 구성하는 저장 규칙 네 가지를 카드 형태로 정리한 요약 이미지]</p>
 
-## 이 방식이 남는 이유
+## 이 방식이 계속 쓰일 수 있는 이유
 
 ### 1. 저장 부담이 거의 없다
 

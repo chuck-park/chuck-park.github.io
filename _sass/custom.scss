@@ -6,6 +6,10 @@
 }
 
 @media (max-width: 768px) {
+  .page__title {
+    margin-bottom: 16px;
+  }
+
   .page__content .image-note {
     font-size: 11px;
   }

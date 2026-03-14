@@ -10,29 +10,30 @@
       .body { font: 500 18px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #4b5563; }
       .accent { font: 700 18px 'Pretendard', 'Noto Sans KR', sans-serif; fill: #ea580c; }
       .arrow { stroke: #94a3b8; stroke-width: 5; fill: none; }
+      .center { text-anchor: middle; }
     </style>
   </defs>
   <rect class="bg" width="1200" height="340"/>
   <text x="60" y="60" class="title">저장은 짧게, 조회는 대화형으로</text>
 
   <circle cx="190" cy="180" r="85" class="circle"/>
-  <text x="180" y="160" class="num">1</text>
-  <text x="132" y="202" class="title">URL 입력</text>
-  <text x="126" y="232" class="accent">1초 저장</text>
+  <text x="190" y="160" class="num center">1</text>
+  <text x="190" y="202" class="title center">URL 입력</text>
+  <text x="190" y="232" class="accent center">1초 저장</text>
 
   <path d="M275 180 L455 180" class="arrow"/>
   <path d="M438 164 L466 180 L438 196" class="arrow"/>
 
   <circle cx="590" cy="180" r="85" class="circle"/>
-  <text x="580" y="160" class="num">2</text>
-  <text x="522" y="202" class="title">자동 저장</text>
-  <text x="512" y="232" class="accent">자동 정리</text>
+  <text x="590" y="160" class="num center">2</text>
+  <text x="590" y="202" class="title center">자동 저장</text>
+  <text x="590" y="232" class="accent center">자동 정리</text>
 
   <path d="M675 180 L855 180" class="arrow"/>
   <path d="M838 164 L866 180 L838 196" class="arrow"/>
 
   <circle cx="990" cy="180" r="85" class="circle"/>
-  <text x="980" y="160" class="num">3</text>
-  <text x="914" y="202" class="title">대화형 조회</text>
-  <text x="908" y="232" class="accent">질문으로 검색</text>
+  <text x="990" y="160" class="num center">3</text>
+  <text x="990" y="202" class="title center">대화형 조회</text>
+  <text x="990" y="232" class="accent center">질문으로 검색</text>
 </svg>

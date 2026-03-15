@@ -1,0 +1,43 @@
+{% assign feed_url = site.atom_feed.path | default: '/feed.xml' %}
+{% assign buttondown = site.subscribe.buttondown %}
+{% assign has_email_form = buttondown.action_url and buttondown.action_url != "" %}
+
+<section class="subscribe-box" aria-labelledby="subscribe-box-title">
+  <h2 id="subscribe-box-title" class="subscribe-box__title">{{ site.subscribe.title | default: "최신 글 구독하기" }}</h2>
+  <p class="subscribe-box__description">{{ site.subscribe.description | default: "새 글이 올라오면 RSS나 이메일로 받아볼 수 있습니다." }}</p>
+
+  {% if has_email_form %}
+    <form
+      class="subscribe-box__form"
+      action="{{ buttondown.action_url }}"
+      method="post"
+      {% if buttondown.page_url and buttondown.page_url != "" %}
+        target="popupwindow"
+        onsubmit="window.open('{{ buttondown.page_url }}', 'popupwindow')"
+      {% endif %}
+    >
+      <label class="screen-reader-text" for="subscribe-email">이메일 주소</label>
+      <input
+        id="subscribe-email"
+        class="subscribe-box__input"
+        type="email"
+        name="email"
+        placeholder="{{ buttondown.placeholder | default: 'you@example.com' }}"
+        required
+      >
+      <button class="btn btn--primary subscribe-box__button" type="submit">
+        {{ buttondown.button_label | default: "이메일 구독" }}
+      </button>
+    </form>
+    <p class="subscribe-box__privacy">{{ site.subscribe.privacy_note | default: "이메일은 새 글 알림 용도로만 사용됩니다." }}</p>
+  {% endif %}
+
+  {% unless site.atom_feed.hide %}
+    <p class="subscribe-box__rss">
+      <a href="{{ feed_url | relative_url }}">
+        <i class="fas fa-rss-square" aria-hidden="true"></i>
+        {{ site.subscribe.rss_label | default: "RSS로 구독하기" }}
+      </a>
+    </p>
+  {% endunless %}
+</section>

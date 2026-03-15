@@ -5,12 +5,39 @@
   line-height: 1.5;
 }
 
+.page__comments #cusdis_thread {
+  width: 100%;
+  min-height: 420px;
+}
+
+.page__comments #cusdis_thread iframe {
+  width: 100%;
+  min-height: 420px;
+  border: 0;
+  overflow: hidden;
+}
+
+.page__subscribe-wrap {
+  clear: both;
+  margin-top: 2.5rem;
+}
+
+.page__subscribe {
+  width: 100%;
+}
+
+#main > .page__comments {
+  clear: both;
+  width: 100%;
+  margin-top: 2rem;
+}
+
 .subscribe-box {
-  margin: 2.5rem 0 2rem;
+  margin: 0;
   padding: 1.25rem;
-  border: 1px solid #dbe3ea;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
-  background: #f8fafc;
+  background: #fff;
 }
 
 .subscribe-box__title {
@@ -25,7 +52,7 @@
 }
 
 .subscribe-box__description {
-  color: #475569;
+  color: #4b5563;
 }
 
 .subscribe-box__form {
@@ -38,7 +65,7 @@
   flex: 1;
   min-width: 0;
   padding: 0.75rem 0.875rem;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #d1d5db;
   border-radius: 10px;
   background: #fff;
 }
@@ -50,7 +77,7 @@
 
 .subscribe-box__privacy {
   font-size: 0.9rem;
-  color: #64748b;
+  color: #6b7280;
 }
 
 .subscribe-box__rss {
@@ -77,9 +104,21 @@
     font-size: 11px;
   }
 
+  .page__comments #cusdis_thread,
+  .page__comments #cusdis_thread iframe {
+    min-height: 360px;
+  }
+
   .subscribe-box {
     padding: 1rem;
-    margin: 2rem 0 1.5rem;
+  }
+
+  .page__subscribe-wrap {
+    margin-top: 2rem;
+  }
+
+  #main > .page__comments {
+    margin-top: 1.75rem;
   }
 
   .subscribe-box__form {
@@ -88,5 +127,29 @@
 
   .subscribe-box__button {
     width: 100%;
+  }
+}
+
+@media (min-width: 64em) {
+  .page__subscribe-wrap {
+    float: right;
+    width: calc(100% - 200px);
+    padding-right: 100px;
+  }
+
+  #main > .page__comments {
+    float: right;
+    width: calc(100% - 200px);
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 80em) {
+  .page__subscribe-wrap {
+    width: calc(100% - 300px);
+  }
+
+  #main > .page__comments {
+    width: calc(100% - 300px);
   }
 }

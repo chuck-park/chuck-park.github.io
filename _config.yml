@@ -29,7 +29,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "utterances"
+  provider               : "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -39,9 +39,6 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : "github-light"
-    issue_term           : "pathname"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -52,6 +49,11 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+cusdis:
+  app_id                 : "c47d4ce4-3ee1-47a1-9387-9dc913c0d62e"
+  host                   : "https://cusdis.com"
+  page_size              : 20
+  theme                  : "auto"
 reCaptcha:
   siteKey                :
   secret                 :

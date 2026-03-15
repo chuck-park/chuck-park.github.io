@@ -1,3 +1,46 @@
-<!-- start custom comments scripts -->
+{% if site.cusdis.app_id and site.cusdis.app_id != "" %}
+  <script async defer src="{{ site.cusdis.host | default: 'https://cusdis.com' }}/js/cusdis.es.js"></script>
+  <script>
+    (function () {
+      function resizeCusdisFrame() {
+        var iframe = document.querySelector('#cusdis_thread iframe');
 
-<!-- end custom comments scripts -->
+        if (!iframe || !iframe.contentWindow || !iframe.contentWindow.document) {
+          return;
+        }
+
+        try {
+          var doc = iframe.contentWindow.document;
+          var body = doc.body;
+          var html = doc.documentElement;
+          var nextHeight = Math.max(
+            body ? body.scrollHeight : 0,
+            html ? html.scrollHeight : 0,
+            body ? body.offsetHeight : 0,
+            html ? html.offsetHeight : 0
+          );
+
+          if (nextHeight > 0) {
+            iframe.style.height = nextHeight + 'px';
+            iframe.setAttribute('scrolling', 'no');
+          }
+        } catch (e) {
+          return;
+        }
+      }
+
+      window.addEventListener('load', function () {
+        resizeCusdisFrame();
+        setTimeout(resizeCusdisFrame, 500);
+        setTimeout(resizeCusdisFrame, 1500);
+      });
+
+      var observer = new MutationObserver(function () {
+        resizeCusdisFrame();
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+      window.addEventListener('resize', resizeCusdisFrame);
+    })();
+  </script>
+{% endif %}

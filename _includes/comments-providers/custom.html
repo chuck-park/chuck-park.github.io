@@ -1,3 +1,13 @@
-<!-- start custom comments snippet -->
-
-<!-- end custom comments snippet -->
+{% if site.cusdis.app_id and site.cusdis.app_id != "" %}
+  <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}</h4>
+  <section
+    id="cusdis_thread"
+    data-host="{{ site.cusdis.host | default: 'https://cusdis.com' }}"
+    data-app-id="{{ site.cusdis.app_id }}"
+    data-page-id="{{ page.id | default: page.url }}"
+    data-page-url="{{ page.url | absolute_url }}"
+    data-page-title="{{ page.title | escape }}"
+    data-page-size="{{ site.cusdis.page_size | default: 20 }}"
+    data-theme="{{ site.cusdis.theme | default: 'auto' }}"
+  ></section>
+{% endif %}

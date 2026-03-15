@@ -1,5 +1,5 @@
 ---
-title: URL만 보내면 저장되고, 나중에 다시 찾는 메모 시스템
+title: URL 하나만 보내도, 나중에 대화로 다시 찾는 메모 시스템
 categories: product
 tags:
   - workflow

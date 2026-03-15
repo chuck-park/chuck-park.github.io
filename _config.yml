@@ -66,7 +66,7 @@ subscribe:
   privacy_note           : "이메일은 새 글 알림 용도로만 사용됩니다."
   rss_label              : "RSS로 구독하기"
   buttondown:
-    action_url           :
+    action_url           : "https://buttondown.com/api/emails/embed-subscribe/chuckpark"
     page_url             :
     placeholder          : "you@example.com"
     button_label         : "이메일 구독"
